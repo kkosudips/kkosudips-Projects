@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace;   
+    font-size:1rem;
+}
+
+body{
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+
+section{
+    margin:1rem;
+}
+th {
+    min-width: 6rem;
+}
+.section-timer{
+    background-color: steelblue;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+.label{
+    font-size:2rem;
+}
+
+#label-state{
+    margin-right:1rem;
+    background-color: gr;
+}
+
+
